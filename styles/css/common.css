@@ -1,0 +1,46 @@
+.grid {
+  width: 420px;
+  height: 420px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap; }
+  .grid div {
+    width: 15px;
+    height: 15px; }
+
+.path {
+  background-color: green;
+  border: 5px solid white;
+  box-sizing: border-box; }
+
+.wall {
+  background-color: #4a5667; }
+
+.power {
+  background-color: green;
+  border-radius: 7.5px; }
+
+.pacman {
+  background-color: red;
+  border-radius: 7.5px;
+  border: none; }
+
+.pink {
+  background-color: pink;
+  border: none; }
+
+.red {
+  background-color: red;
+  border: none; }
+
+.blue {
+  background-color: blue;
+  border: none; }
+
+.purple {
+  background-color: purple;
+  border: none; }
+
+.scared-ghost {
+  background-color: lightblue;
+  border: none; }
